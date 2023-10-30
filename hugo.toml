@@ -1,8 +1,9 @@
-baseURL = "https://www.example.com"
+baseURL = "https://khangt1k25.github.io"
 languageCode = "en-us"
-title = "Hei world, it's Khang"
-theme = "hugo-digital-garden-theme2"
+title = "khangruni"
+theme = ["hugo-digital-garden-theme2"]
 themesdir = "./themes"
+disqusShortname = 'khangruni'
 
 copyright = "Khangruni ©"
 
@@ -39,8 +40,8 @@ copyright = "Khangruni ©"
     url = "/tech/"
     weight = 2
   [[menu.main]]
-    name = "Library"
-    url = "/library/"
+    name = "Book"
+    url = "/book/"
     weight = 3
   [[menu.main]]
     name = "Portfolio"
@@ -54,10 +55,11 @@ copyright = "Khangruni ©"
 
 [taxonomies]
   garden_tags = 'garden_tags'
-  project_tags = 'project_tags'
-  library_tags = 'library_tags'
+  tech_tags = 'tech_tags'
+  book_tags = 'book_tags'
+  
 
-
+  
 [markup]
   defaultMarkdownHandler = 'goldmark'
   [markup.goldmark.renderer]

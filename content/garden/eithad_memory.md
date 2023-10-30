@@ -21,6 +21,7 @@ Mu dẫn trước 1-0 rồi, Rooney ghi bàn; còn Man City đang bị dẫn ng�
 Và rồi chuyện tồi tệ nhất đã xảy ra, Dzeko đánh đầu ghi bàn, từ vui vẻ hân hoan chuyển sang thấp thỏm lo âu, tôi không dám tưởng tượng gì nữa. Ít phút sau, Aguero ghi bàn quyết định, choáng váng, không cất nổi tiếng, lặng nhìn lên TV, cảm giác như bị đánh gục hoàn toàn. Khóc, tôi đã khóc. Nức nở. Tôi được chứng kiến
 “Munich 1999” hay sao, đau đớn thay lần này chính đội bóng tôi yêu lại sắm vai kẻ thất bại.  
 
-![alt](https://www.mancity.com/-/media/images/home/news/team-news/2011-2012-season/home-games/qpr-sunday-13-may/sergio.ashx)
+
+<img src="https://www.mancity.com/-/media/images/home/news/team-news/2011-2012-season/home-games/qpr-sunday-13-may/sergio.ashx" alt="kun aguero" style="width: 100%; height: 100%" />
 
 Lần đầu tiên trong đời của cậu bé, bóng đá lại bi kịch như vậy. 

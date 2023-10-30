@@ -40,7 +40,6 @@ Trong 20 năm trở lại đây, chỉ có 2 lần ngôi vương ở La Liga kh�
 
 Càng nhiều đội bóng lớn, càng có rất nhiều super match cho người hâm mộ thưởng thức. Ví dụ, ở thời điểm hiện tại, có 6 đội bóng lớn là big6, mình tạm bỏ qua Leicester; như vậy trong mỗi mùa giải, người hâm mộ sẽ được thưởng thức 30 super matches giữa các đội big6, trung bình hơn 3 trận/ 1 tháng. Con số cao hơn nhiều so với 6 ở La liga (tính thêm Atletico Madrid),  hay 4 ở Bundesliga với 2 đội là Dortmund và Bayern.
 
-<!-- ![big4](https://news.bbcimg.co.uk/media/images/48617000/jpg/_48617840_top2_466.jpg "EPL Big4") -->
 
 <img src="https://news.bbcimg.co.uk/media/images/48617000/jpg/_48617840_top2_466.jpg" alt="EPL Big4" style="width: 100%; height: 100%" />
 

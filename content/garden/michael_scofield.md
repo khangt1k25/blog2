@@ -14,8 +14,8 @@ Khi mình còn nhỏ, những bộ phim VTV phát vào khung giờ 6h hay 22h l�
 #### Thiên tài
 Michael Scofield là một kĩ sư kết cấu, công việc phân tích tính toán sức chịu đựng của các công trình xây dựng. Michael có một người anh là Lincoln bị kết tội oan, sắp sửa bị tử hình ở nhà tù Fox River; và Michael quyết định đưa mình vào tù và "break him out". Series phim là câu chuyện về vượt ngục, trốn chạy, tìm kiếm sự tự do của Michael và Lincoln. Một series phim hành động, tâm lý, gia đình và không có thật mang lại nhiều hơn là sự thích thú cho một đứa trẻ. Đó còn là sự ấn tượng về phong cách của Michael Scofield và những gì học được từ Michael.
 
-![michael](https://znews-photo.zadn.vn/w660/Uploaded/mdf_rkxrxd/2020_04_20/Vuot_nguc_1.jpg "Michael scofield")
 
+<img src="https://znews-photo.zadn.vn/w660/Uploaded/mdf_rkxrxd/2020_04_20/Vuot_nguc_1.jpg" alt="Michael scofield" style="width: 100%; height: 100%" />
 
 #### Chi tiết nhất
 
@@ -26,7 +26,9 @@ Michael Scofield là một thiên tài. Anh có sự hiểu biết cực kì sâ
 
 Người có khả năng tổng quát hóa được sự việc, nhận biết được mọi thứ xảy ra hay nói cách khác là có tầm nhìn ở trên cao  là người giỏi nhất. Giống như trong bóng đá, điểm khác biệt rõ rệt ở chơi game bóng đá với trực tiếp chơi bóng đó là tầm nhìn, khi chơi game ta có thể quan sát toàn bộ sân để điều chỉnh nhưng chỉ là góc nhìn one player khi chơi bóng ngoài đời; rõ ràng sẽ gây khó khăn ở quyết định chuyền sút hay đi bóng ở cầu thủ. Đó là lí do "nhìn thì dễ vào làm mới khó ". Có được tầm nhìn tốt và khả năng đọc trận đấu tốt sẽ giúp bạn thành một cầu thủ xuất sắc. Michael là người như vậy, anh có tầm nhìn rộng hơn và cao hơn nhiều so với các nhân vật còn lại. Luôn đi trước một bước và luôn bất ngờ. 
 
-![michael2](https://sohanews.sohacdn.com/thumb_w/660/2017/photo1498643389054-1498643392115-0-152-628-1163-crop-1498643520245.jpg "Michael scofield 2")
+
+<img src="https://sohanews.sohacdn.com/thumb_w/660/2017/photo1498643389054-1498643392115-0-152-628-1163-crop-1498643520245.jpg" alt="Michael scofield 2" style="width: 100%; height: 100%" />
+
 
 #### Kết
 

@@ -14,7 +14,7 @@ Dòng chảy lịch sử là bất tận, lịch sử cho ta cái nhìn từ ch�
 Sự thôi thúc, quan tâm đến khó tin về chiến tranh và một chút rãnh rỗi đã đưa cuốn sách này đến đây. Biên niên sử về thời kì đen tối nhất châu Âu: "Đức Quốc Xã". 
 
 
-![bookriseandfall](https://redpillaction.files.wordpress.com/2019/04/image-1-1.jpg?w=863&h=0&crop=1 "The rise and fall of the third reich")
+<img src="https://salt.tikicdn.com/cache/w1200/ts/product/cb/86/8a/bdefd2e68588c3cbaa9724e11b050063.jpg" alt="The rise and fall of the third reich" style="width: 100%; height: 100%" />
 
 
 #### Trỗi dậy
@@ -25,8 +25,7 @@ Dòng chảy của đầu những năm 90. Khi nước Đức trải qua thất 
 
 Chính những khó khăn đó, Adolf Hitler nổi lên với vai trò lãnh tụ đảng Quốc Xã. Xuất thân từ một cậu bé sinh quán tại Áo, một thợ vẽ xoàng với niềm đam mê với hội họa, một sĩ quan Áo quèn trong thế chiến thứ nhất. Hitler dần vươn lên bằng khả năng "Hùng biện" và mức độ quyết liệt, ranh mãnh của ông ta. Quốc xã và Hitler đã vẽ ra một con đường trở lại hùng cường cho nước Đức, với một tinh thần nước Đức và làm nó mạnh mẽ trở lại. Cũng chẳng bằng phẳng gì, nhưng nước Đức tất yếu đã tạo ra con quái vật mà họ sẽ phải trả giá sau này. Hitler dần dà bước từng bước lên vũ đài chính trị từng bước một,không từ thủ đoạn, gạt bỏ kẻ ngáng đường để nắm được quyền lực cao nhất. Từ lúc chẳng ai biết đến ông, đến khi cả đất nước phải phục tùng, tôn thờ ông là lãnh tụ của đế chế. Con đường tuy chẳng bằng phẳng, nhưng nó đã tạo ra một thảm họa cho nước Đức và cả thế giới, thay đổi số phận hàng triệu người. Và thế là Đức quốc xã ra đời, mặc cho nó chẳng tốt đẹp gì. Người Đức liệu có thờ ơ, u mê trước quốc xã? Đáng lẽ ra chính những người đứng đấu nước Đức lúc đó có thể ngăn chặn được nó, nhưng họ mải mê, bị dụ dỗ, đánh giá quá thấp Hitler để rồi đấu đá lẫn nhau, góp phần đẩy quốc xã lên vị thế cao nhất mà chính họ e sợ, nước Đức bản thân nó đã đẻ ra đế chế thứ ba. 
 
-![nazi](https://fplct.librarymarket.com/sites/default/files/2019-03/nazi.jpg "Risethirdreich")
-
+<img src="https://fplct.librarymarket.com/sites/default/files/2019-03/nazi.jpg" alt="nazi" style="width: 100%; height: 100%" />
 
 
 #### Đỉnh cao
@@ -48,9 +47,8 @@ Khi nước Đức đạt đỉnh cao năm 1940. Có rất nhiều bước ngo�
 
 Yếu tố thứ hai chính là việc duy trì cùng lúc nhiều mặt trận khiến Đức yếu hơn, trong khi những tập đoàn quân thiện chiến nhất đang mắc kẹt ở Liên Xô, mặt trận phía tây bị không quân Anh đe dọa, trên biển thất thế bởi hải quân Anh, Mỹ. Cùng một lúc đối đầu Liên Xô cứng đầu, Anh không chịu bỏ cuộc và cường quốc quân sự Mỹ tham chiến, trong khi đồng minh của họ lại quá yếu đuối, đó là nước Ý của Mussolini, nước Nhật quá kín kẽ không giúp đỡ trực tiếp nhiều và Hungary, Ruminia chỉ là tiểu tốt. Sự suy tàn sẽ đến. 
 
-![meeting]( https://aventurasnahistoria.uol.com.br/media/_versions/legacy/2019/02/01/capa_yalta_conference_widelg.jpeg "meetingofrba")
 
-
+<img src="https://aventurasnahistoria.uol.com.br/media/_versions/legacy/2019/02/01/capa_yalta_conference_widelg.jpeg" alt="meeting of rba" style="width: 100%; height: 100%" />
 
 
 #### Suy tàn
@@ -61,14 +59,11 @@ Yếu tố thứ hai chính là việc duy trì cùng lúc nhiều mặt trận 
 
 Đế chế thứ ba sụp đổ tháng 5 năm 1945. Hitler tự sát và nước Đức một lần nữa bại trận. Cuộc chiến đẫm máu sẽ kết thúc ít tháng sau đó. 
 
-![fall]( https://www.warlordgames.com/wp-content/uploads/2014/05/Soviet-tanksd-advance-through-shattered-berlin-streets.jpg "fallthirdreich")
-
-
+<img src="https://www.warlordgames.com/wp-content/uploads/2014/05/Soviet-tanksd-advance-through-shattered-berlin-streets.jpg" alt="the fall of third reich" style="width: 100%; height: 100%" />
 
 
 
 #### Kết 
-
 
 Lịch sử đã qua đi và chẳng có thể có chữ nếu trong đó, tuy vậy hiện tại và tương lai thì có thể. Đế chế thứ ba vĩnh viễn chết tại quá khứ, nhưng tội lỗi vết nhớ gây ra không bao giờ có thể gột sạch được. Nước Đức đã sản sinh ra con dị thú và phải trả giá vì điều đó. Xin kết thúc bởi một câu nói như sau mà bản thân chưa hiểu được rõ nghĩa.
 

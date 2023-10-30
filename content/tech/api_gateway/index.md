@@ -2,7 +2,7 @@
 title: "Everything I learn about Api Gateway"
 date: 2022-11-24
 draft: false
-project_tags: ["api gateway"]
+tech_tags: ["api gateway"]
 status: "evergreen"
 weight: 2
 summary: "This is all things I know about Api Gateway when i was working with this term" 
