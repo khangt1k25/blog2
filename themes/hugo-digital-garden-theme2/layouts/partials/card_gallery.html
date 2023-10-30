@@ -1,0 +1,24 @@
+<div >
+  <div  style="visibility: display; height: 100%; width: 100%;">
+    {{ $photos := sort (.Resources.ByType "image") (index .Params "sort_by" | default "Name") (.Params.sort_order | default "asc") }}
+    {{ range $index, $original := $photos }}
+      {{ if eq $original.ResourceType "image" }}
+        <a
+          href="{{ $original.RelPermalink }}"
+          data-src="{{ $original.RelPermalink }}"
+       
+          title="{{ $original.Name }}"
+        >
+          <img
+            width="{{ $original.Width }}"
+            height="{{ $original.Height }}"
+            class="lazyload"
+            data-src="{{ $original.RelPermalink }}"
+            alt="{{ $original.Name }}"
+          />
+          
+        </a>
+      {{ end }}
+    {{ end }}
+  </div>
+</div>
