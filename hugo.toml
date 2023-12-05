@@ -11,13 +11,13 @@ copyright = "Khangruni ©"
   name = "Khang Nguyen Tran"
   description = "The sun comes up it's new day dawning, it's time to sing your song again."
   initials = "Khangruni"
-  googleAnalytics = ""
+  googleAnalytics = "G-GPVC98SDG9"
 
   [[params.social]]
     name = "Twitter"
     link = "https://www.facebook.com/trankhang.nguyen.35/"
     icon = "fab fa-facebook"
-
+    
   [[params.social]]
     name = "Github"
     link = "https://github.com/khangt1k25"
@@ -48,9 +48,13 @@ copyright = "Khangruni ©"
     url = "/portfolio/"
     weight = 4
   [[menu.main]]
+    name = "Gallery"
+    url = "/gallery/"
+    weight = 5
+  [[menu.main]]
     name = "About"
     url = "/about/"
-    weight = 5
+    weight = 6
 
 
 [taxonomies]
