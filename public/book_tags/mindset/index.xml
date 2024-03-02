@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mindset on khangruni</title>
+    <link>http://localhost:1313/book_tags/mindset/</link>
+    <description>Recent content in Mindset on khangruni</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Khangruni ©</copyright>
+    <lastBuildDate>Mon, 30 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/book_tags/mindset/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rework</title>
+      <link>http://localhost:1313/book/rework/</link>
+      <pubDate>Mon, 30 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/book/rework/</guid>
+      <description>Rethink about business, job, success, &amp;hellip;</description>
+    </item>
+    <item>
+      <title>Start with Why: How Great Leaders Inspire Everyone to Take Action</title>
+      <link>http://localhost:1313/book/start_with_why/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/book/start_with_why/</guid>
+      <description>Why we should start with why?</description>
+    </item>
+  </channel>
+</rss>

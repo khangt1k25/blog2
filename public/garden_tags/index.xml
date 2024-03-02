@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Garden_tags on khangruni</title>
+    <link>http://localhost:1313/garden_tags/</link>
+    <description>Recent content in Garden_tags on khangruni</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Khangruni ©</copyright>
+    <lastBuildDate>Mon, 30 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/garden_tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Feeling</title>
+      <link>http://localhost:1313/garden_tags/feeling/</link>
+      <pubDate>Mon, 30 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/garden_tags/feeling/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Story</title>
+      <link>http://localhost:1313/garden_tags/story/</link>
+      <pubDate>Mon, 30 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/garden_tags/story/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Movie</title>
+      <link>http://localhost:1313/garden_tags/movie/</link>
+      <pubDate>Sun, 26 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/garden_tags/movie/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Football</title>
+      <link>http://localhost:1313/garden_tags/football/</link>
+      <pubDate>Sat, 04 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/garden_tags/football/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>History</title>
+      <link>http://localhost:1313/garden_tags/history/</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/garden_tags/history/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Science</title>
+      <link>http://localhost:1313/garden_tags/science/</link>
+      <pubDate>Sat, 07 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/garden_tags/science/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

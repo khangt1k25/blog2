@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Science on khangruni</title>
+    <link>http://localhost:1313/garden_tags/science/</link>
+    <description>Recent content in Science on khangruni</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Khangruni ©</copyright>
+    <lastBuildDate>Sat, 07 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/garden_tags/science/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Six degrees of Separation</title>
+      <link>http://localhost:1313/garden/6_degrees_of_separation/</link>
+      <pubDate>Sat, 07 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/garden/6_degrees_of_separation/</guid>
+      <description>Đang trong mùa dịch Covid-19 căng thẳng, hôm qua thì đùng cái Hà Nội thông báo có người nhiễm Covid.</description>
+    </item>
+  </channel>
+</rss>

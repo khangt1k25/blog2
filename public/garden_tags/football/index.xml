@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Football on khangruni</title>
+    <link>http://localhost:1313/garden_tags/football/</link>
+    <description>Recent content in Football on khangruni</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Khangruni ©</copyright>
+    <lastBuildDate>Sat, 04 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/garden_tags/football/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Premier League</title>
+      <link>http://localhost:1313/garden/the_premier_league/</link>
+      <pubDate>Sat, 04 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/garden/the_premier_league/</guid>
+      <description>Bóng đá thời còn được chiếu ở trên VTV. Chính những lần xem trên TV ấy lại chính là những lần vun đắp tình yêu với câu lạc bộ ưa thích.</description>
+    </item>
+    <item>
+      <title>The Etihad memory</title>
+      <link>http://localhost:1313/garden/eithad_memory/</link>
+      <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/garden/eithad_memory/</guid>
+      <description>Premier League năm ấy, đứa trẻ đã òa khóc khi trước mắt là điều tội tệ nhất của cậu</description>
+    </item>
+  </channel>
+</rss>

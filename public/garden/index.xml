@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My Garden on khangruni</title>
+    <link>http://localhost:1313/garden/</link>
+    <description>Recent content in My Garden on khangruni</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Khangruni ©</copyright>
+    <lastBuildDate>Mon, 30 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/garden/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Can i get boths</title>
+      <link>http://localhost:1313/garden/can_i_get_boths/</link>
+      <pubDate>Mon, 30 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/garden/can_i_get_boths/</guid>
+      <description>The questions, they are playing in my mind</description>
+    </item>
+    <item>
+      <title>Michael Scofield - An unreal genius</title>
+      <link>http://localhost:1313/garden/michael_scofield/</link>
+      <pubDate>Sun, 26 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/garden/michael_scofield/</guid>
+      <description>Vượt ngục cũng vậy. Nhưng khi đó thực sự chỉ là một ít chi tiết và sự ấn tượng về Michael Scofield</description>
+    </item>
+    <item>
+      <title>The Premier League</title>
+      <link>http://localhost:1313/garden/the_premier_league/</link>
+      <pubDate>Sat, 04 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/garden/the_premier_league/</guid>
+      <description>Bóng đá thời còn được chiếu ở trên VTV. Chính những lần xem trên TV ấy lại chính là những lần vun đắp tình yêu với câu lạc bộ ưa thích.</description>
+    </item>
+    <item>
+      <title>The Rise and Fall of the Third Reich</title>
+      <link>http://localhost:1313/garden/rise_fall_third_reich/</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/garden/rise_fall_third_reich/</guid>
+      <description>Dòng chảy lịch sử là bất tận, lịch sử cho ta cái nhìn từ chính nó. Sự ấn tượng khi nghe về đế chế thứ ba cũng vậy</description>
+    </item>
+    <item>
+      <title>Six degrees of Separation</title>
+      <link>http://localhost:1313/garden/6_degrees_of_separation/</link>
+      <pubDate>Sat, 07 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/garden/6_degrees_of_separation/</guid>
+      <description>Đang trong mùa dịch Covid-19 căng thẳng, hôm qua thì đùng cái Hà Nội thông báo có người nhiễm Covid.</description>
+    </item>
+    <item>
+      <title>29 tháng 2</title>
+      <link>http://localhost:1313/garden/29_2/</link>
+      <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/garden/29_2/</guid>
+      <description>A few days ago, i thought about the future. A few weeks ago, i also thought about the future. A few months ago, i had same things.</description>
+    </item>
+    <item>
+      <title>The Etihad memory</title>
+      <link>http://localhost:1313/garden/eithad_memory/</link>
+      <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/garden/eithad_memory/</guid>
+      <description>Premier League năm ấy, đứa trẻ đã òa khóc khi trước mắt là điều tội tệ nhất của cậu</description>
+    </item>
+  </channel>
+</rss>
