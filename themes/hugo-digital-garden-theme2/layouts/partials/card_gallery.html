@@ -36,7 +36,7 @@
           {{ end }}
           itemscope
           itemtype="https://schema.org/ImageObject"
-          style="width: calc(33.33% - 10px); height: 350px; margin-bottom: 10px; box-sizing: border-box; padding: 15px;"
+          style="display: inline-block; width: calc(33.33% - 10px); height: 350px; margin-bottom: 10px; box-sizing: border-box; padding: 1%; @media screen and (max-width: 480px) { height: 200px; }"
         >
           <img
             width="100%"
@@ -51,7 +51,7 @@
                 {{ end }}
               {{ end }}
             {{ end }}
-            style="position: relative; overflow: hidden; border-radius: 10px; margin-bottom: 10px;"
+            style="display: block; position: relative; overflow: hidden; border-radius: 10px; margin-bottom: 10px;"
           />
           <meta itemprop="contentUrl" content="{{ $original.RelPermalink }}" />
           {{ with $.Site.Author }}
