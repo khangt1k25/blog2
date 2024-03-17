@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Backend on khangruni</title>
+    <link>http://localhost:1313/tech_tags/backend/</link>
+    <description>Recent content in Backend on khangruni</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Khangruni ©</copyright>
+    <lastBuildDate>Sun, 17 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tech_tags/backend/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The very first: The API Gateway</title>
+      <link>http://localhost:1313/tech/api_gateway/</link>
+      <pubDate>Sun, 17 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tech/api_gateway/</guid>
+      <description>Oh, this is the very first tech blog. So, the first is API gateway</description>
+    </item>
+  </channel>
+</rss>

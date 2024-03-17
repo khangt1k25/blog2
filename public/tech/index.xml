@@ -7,14 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Khangruni ©</copyright>
-    <lastBuildDate>Thu, 24 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 17 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Everything I learn about Api Gateway</title>
+      <title>The very first: The API Gateway</title>
       <link>http://localhost:1313/tech/api_gateway/</link>
-      <pubDate>Thu, 24 Nov 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 17 Mar 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tech/api_gateway/</guid>
-      <description>This is all things I know about Api Gateway when i was working with this term</description>
+      <description>Oh, this is the very first tech blog. So, the first is API gateway</description>
     </item>
   </channel>
 </rss>
