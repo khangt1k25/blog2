@@ -1,5 +1,5 @@
 <div class="mb-12 mt-9 sm:px-6">
-  <div class="fj-gallery mx-auto" style="visibility: display; width: 100%; display: flex; flex-wrap: wrap; align-items: center; justify-content: center;">
+  <div class="fj-gallery" style="visibility: display; width: 100%; display: flex; flex-wrap: wrap; align-items: center; justify-content: center;">
     {{ $photos := sort (.Resources.ByType "image") (index .Params "sort_by" | default "Name") (.Params.sort_order | default "asc") }}
     {{ range $index, $original := $photos }}
       {{ if eq $original.ResourceType "image" }}
@@ -36,7 +36,7 @@
           {{ end }}
           itemscope
           itemtype="https://schema.org/ImageObject"
-          style="display: inline-block; width: calc(33.33% - 10px); height: 350px; margin-bottom: 10px; box-sizing: border-box; padding: 1%; @media screen and (max-width: 480px) { height: 200px; }"
+          style="display: inline-block; margin-bottom: 10px; box-sizing: border-box; padding: 1%;"
         >
           <img
             width="100%"
@@ -51,7 +51,7 @@
                 {{ end }}
               {{ end }}
             {{ end }}
-            style="display: block; position: relative; overflow: hidden; border-radius: 10px; margin-bottom: 10px;"
+            style="display: block; position: relative; overflow: hidden; border-radius: 10px; margin-bottom: 10px; width: 100%; height: auto;"
           />
           <meta itemprop="contentUrl" content="{{ $original.RelPermalink }}" />
           {{ with $.Site.Author }}
@@ -64,3 +64,23 @@
     {{ end }}
   </div>
 </div>
+
+
+<style>
+  .gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -5px; /* Adjust this value as needed for the gap between images */
+  }
+  
+  .fj-gallery-item {
+    flex: 0 0 calc(33.333% - 10px); /* Three images per row with 10px gap between them */
+    margin: 5px; /* Adjust this value to create gap between images */
+  }
+  
+  @media screen and (max-width: 767px) {
+    .fj-gallery-item {
+      flex-basis: calc(100% - 10px); /* One image per row with 10px gap between them on smaller screens */
+    }
+  }
+</style>

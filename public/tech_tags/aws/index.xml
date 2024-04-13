@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aws on khangruni</title>
+    <link>http://localhost:1313/tech_tags/aws/</link>
+    <description>Recent content in Aws on khangruni</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Khangruni ©</copyright>
+    <lastBuildDate>Fri, 12 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tech_tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>API gateway with AWS</title>
+      <link>http://localhost:1313/tech/api_gateway_aws/</link>
+      <pubDate>Fri, 12 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tech/api_gateway_aws/</guid>
+      <description>Discovering API gateway service with AWS</description>
+    </item>
+  </channel>
+</rss>

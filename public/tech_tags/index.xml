@@ -7,19 +7,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Khangruni ©</copyright>
-    <lastBuildDate>Sun, 17 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tech_tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Api Gateway</title>
       <link>http://localhost:1313/tech_tags/api-gateway/</link>
-      <pubDate>Sun, 17 Mar 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 12 Apr 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tech_tags/api-gateway/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Aws</title>
+      <link>http://localhost:1313/tech_tags/aws/</link>
+      <pubDate>Fri, 12 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tech_tags/aws/</guid>
       <description></description>
     </item>
     <item>
       <title>Backend</title>
       <link>http://localhost:1313/tech_tags/backend/</link>
-      <pubDate>Sun, 17 Mar 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 12 Apr 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tech_tags/backend/</guid>
       <description></description>
     </item>

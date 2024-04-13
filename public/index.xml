@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Khangruni ©</copyright>
-    <lastBuildDate>Sun, 17 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 13 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>API gateway with AWS</title>
+      <link>http://localhost:1313/tech/api_gateway_aws/</link>
+      <pubDate>Fri, 12 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tech/api_gateway_aws/</guid>
+      <description>Discovering API gateway service with AWS</description>
+    </item>
     <item>
       <title>The very first: The API Gateway</title>
       <link>http://localhost:1313/tech/api_gateway/</link>
@@ -22,6 +29,55 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/gallery/kalapa/</guid>
       <description>Snapshots from my journey at KALAPA, my first job as a data scientsit after graduation. It&amp;rsquo;s a journey where work meets family, and innovation blends seamlessly with a relaxed vibe.</description>
+    </item>
+    <item>
+      <title>All the Light We Cannot See</title>
+      <link>http://localhost:1313/book/all_the_light_we_cannot_see/</link>
+      <pubDate>Sat, 13 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/book/all_the_light_we_cannot_see/</guid>
+      <description>A blind French girl and a German boy whose paths collide in occupied France as both try to survive the devastation of World War II</description>
+    </item>
+    <item>
+      <title>David and Goliath</title>
+      <link>http://localhost:1313/book/david_and_goliath/</link>
+      <pubDate>Sat, 13 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/book/david_and_goliath/</guid>
+      <description>Underdogs, Misfits, and the Art of Battling Giants</description>
+    </item>
+    <item>
+      <title>Educated</title>
+      <link>http://localhost:1313/book/educated/</link>
+      <pubDate>Sat, 13 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/book/educated/</guid>
+      <description>An account of the struggle for self-invention</description>
+    </item>
+    <item>
+      <title>Inspired</title>
+      <link>http://localhost:1313/book/inspired/</link>
+      <pubDate>Sat, 13 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/book/inspired/</guid>
+      <description>How to Create Tech Products Customers Love</description>
+    </item>
+    <item>
+      <title>The Nightingale</title>
+      <link>http://localhost:1313/book/the_nightingale/</link>
+      <pubDate>Sat, 13 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/book/the_nightingale/</guid>
+      <description>In love we find out who we want to be. In war we find out who we are.</description>
+    </item>
+    <item>
+      <title>The Tipping Point</title>
+      <link>http://localhost:1313/book/the_tipping_point/</link>
+      <pubDate>Sat, 13 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/book/the_tipping_point/</guid>
+      <description>How Little Things Can Make a Big Difference</description>
+    </item>
+    <item>
+      <title>Think Again</title>
+      <link>http://localhost:1313/book/think_again/</link>
+      <pubDate>Sat, 13 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/book/think_again/</guid>
+      <description>The Power of Knowing What You Don&amp;rsquo;t Know</description>
     </item>
     <item>
       <title>Can i get boths</title>
@@ -95,9 +151,9 @@
     </item>
     <item>
       <title>The Etihad memory</title>
-      <link>http://localhost:1313/garden/eithad_memory/</link>
+      <link>http://localhost:1313/garden/etihad_memory/</link>
       <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/garden/eithad_memory/</guid>
+      <guid>http://localhost:1313/garden/etihad_memory/</guid>
       <description>Premier League năm ấy, đứa trẻ đã òa khóc khi trước mắt là điều tội tệ nhất của cậu</description>
     </item>
   </channel>

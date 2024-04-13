@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Story on khangruni</title>
+    <link>http://localhost:1313/book_tags/story/</link>
+    <description>Recent content in Story on khangruni</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Khangruni ©</copyright>
+    <lastBuildDate>Sat, 13 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/book_tags/story/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>All the Light We Cannot See</title>
+      <link>http://localhost:1313/book/all_the_light_we_cannot_see/</link>
+      <pubDate>Sat, 13 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/book/all_the_light_we_cannot_see/</guid>
+      <description>A blind French girl and a German boy whose paths collide in occupied France as both try to survive the devastation of World War II</description>
+    </item>
+    <item>
+      <title>The Nightingale</title>
+      <link>http://localhost:1313/book/the_nightingale/</link>
+      <pubDate>Sat, 13 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/book/the_nightingale/</guid>
+      <description>In love we find out who we want to be. In war we find out who we are.</description>
+    </item>
+  </channel>
+</rss>

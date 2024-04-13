@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Education on khangruni</title>
+    <link>http://localhost:1313/book_tags/education/</link>
+    <description>Recent content in Education on khangruni</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Khangruni ©</copyright>
+    <lastBuildDate>Sat, 13 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/book_tags/education/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Educated</title>
+      <link>http://localhost:1313/book/educated/</link>
+      <pubDate>Sat, 13 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/book/educated/</guid>
+      <description>An account of the struggle for self-invention</description>
+    </item>
+  </channel>
+</rss>

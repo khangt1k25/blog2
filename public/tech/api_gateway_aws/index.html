@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GPVC98SDG9"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-GPVC98SDG9');
+    </script>
+    
+    <link rel="shortcut icon" type="img/jpg" href="/icons.ico">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700;800&family=Frank+Ruhl+Libre:wght@200;300;400;500;600&family=Encode+Sans+Semi+Condensed:wght@400&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/all.min.css">
+    <link disabled id="dark-mode-theme" rel="stylesheet" href="/css/dark.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    
+    
+    
+    
+    
+    <title>khangruni | API gateway with AWS</title>
+    <meta name="description" content="Discovering API gateway service with AWS">
+</head><body><nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="http://localhost:1313/">
+            
+            <b style="font-weight: 800;">Khangruni</b>
+            
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto mt-2 mt-lg-0"><li class='nav-item '>
+                    <a class="nav-link" href="/garden/"> My Garden</a>
+                </li>
+            <li class='nav-item '>
+                    <a class="nav-link" href="/tech/"> Tech</a>
+                </li>
+            <li class='nav-item '>
+                    <a class="nav-link" href="/book/"> Book</a>
+                </li>
+            <li class='nav-item '>
+                    <a class="nav-link" href="/portfolio/"> Portfolio</a>
+                </li>
+            <li class='nav-item '>
+                    <a class="nav-link" href="/gallery/"> Gallery</a>
+                </li>
+            <li class='nav-item '>
+                    <a class="nav-link" href="/about/"> About</a>
+                </li>
+             
+            <li class="nav-item px-2 pt-1">
+                <a class="btn fas fa-moon" id="dark-mode-toggle"></a>
+            </li>
+            </ul>
+        </div>
+    </div>
+</nav><div id="content">
+
+<div class="container" style="max-width: 800px;">
+    <div class="py-4 rounded-3">
+        <div class="container-fluid py-2">
+            <h1 class="display-2 mb-4 text-center">API gateway with AWS</h1>
+        </div>
+        
+        <p class="text-center fs-4 fst-italic serif">Discovering API gateway service with AWS</p>
+        
+        <div class="text-center pt-4">
+            
+        </div>
+    </div>
+    <div class="row justify-content-center mb-5">
+        <div class="col-12">
+            <p class="card-date m-0">
+                
+                
+                    Created Apr 12, 2024 - 
+                
+                Last updated: Apr 12, 2024
+            </p>
+            <hr class="dropdown-divider">
+            <div class="row justify-content-between">
+                <div class="col-sm-4">
+                    
+    
+    <span class="status">Evergreen 🌳</span>
+    
+
+                </div>
+                <div class="col-sm-8" style="text-align: right;">
+                    
+                
+                
+                    
+                    <span class="badge tag-badge">api gateway</span>
+                    
+                    <span class="badge tag-badge">backend</span>
+                    
+                    <span class="badge tag-badge">aws</span>
+                    
+                
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid py-2">
+        <div class="serif main-content">
+            <p><i>Hà Tĩnh, Quê hương coffee, Chiều thứ 6</i></p>
+<img src="images/quehuong.jpeg" alt="Quê hương coffee" style="width:100%">
+<h2 id="the-begin">The Begin</h2>
+<p>Cơ duyên của mình đối với AWS - Amazon Web Services đến khi dự án mới của công ty mình chuyển sang dùng 100% dịch vụ của AWS - một thứ mới mẻ với các anh em trong công ty và với mình.</p>
+<p>Dịch vụ đầu tiên của AWS mà mình tìm hiểu sử dụng là API Gateway, cũng là core để xây dựng nên APIX phiên bản đầu tiên. Trong bài này mình sẽ tìm hiểu tất tần tật về dịch vụ này.</p>
+<blockquote>
+<p>Amazon API Gateway is an AWS service for creating, publishing, maintaining, monitoring, and securing REST, HTTP, and WebSocket APIs at any scale.</p>
+</blockquote>
+<h2 id="excellent-views--aws-api-gateway">Excellent views:  AWS API Gateway</h2>
+<p>AWS chia service của họ thành các lát cắt tương ứng với quá trình thao tác với API Gateway. Rất dễ hiểu khi mới sử dụng.</p>
+<ul>
+<li>Develop: Tất cả các setup liên quan đến API về cấu hình, kết nối, …</li>
+<li>Deploy: Các setup liên quan việc deploy các API lên API gateway</li>
+<li>Monitor: Các kết nối sang logs</li>
+<li>Protect: Các setup liên quan đến throttle, rate limit</li>
+<li>Optimize: Các tối ưu bao gồm caching, compression</li>
+<li>Distribute: Các setup liên quan đến gói sử dụng, key của client</li>
+</ul>
+<h2 id="develop-api-gateway">Develop: API Gateway</h2>
+<p>Đây là thuật ngữ chỉ chung về gateway, là lớp ngoài cùng cho phép tạo, deploy, quản lý và theo dõi các API có trong gateway. API gateway của AWS hỗ trợ kết nối với các service theo ba dạng: REST API, HTTP API, Websocket API. Nói về phần core của API gateway thì việc quản lý hay HA core đều thuộc về AWS. Nghĩa là mình không cần bận tâm đến việc deploy API gateway mà mỗi account sẽ được hay coi như được cấp 1 gateway ( manage by AWS) và việc của mình chỉ là setup và sử dụng các APIs trong gateway đó.</p>
+<h2 id="develop-apis">Develop: APIs</h2>
+<p>Khái niệm API ở AWS service để chỉ 1 tập-bộ các API endpoint hướng đến một số nhiệm vụ chung. Mỗi API sẽ được định danh bởi ID và được setup theo nhiều loại kết nối kể trên.</p>
+<img src="images/apis.png" alt="APIs" style="width:100%">
+<h2 id="develop-api-routes">Develop: API Routes</h2>
+<p>Khi client gọi đến API trong Gateway thì Gateway sẽ dựa vào route để tiến hành gọi xuống các service tương ứng đã được setup. Do đó việc đặt tên và định danh cho route là bước quan trọng đầu tiên khi mình setup API.</p>
+<p>Các route được định danh bên tên của nó. Ví dụ với routes là /pets.  Mình có thể xác định các method (đề cập sau) cụ thể cho route của mình. Hoặc, mình có thể sử dụng phương thức ANY để phù hợp với tất cả các phương thức mà chưa xác định. Ngoài ra mình có thể tạo một route $default hoạt động như một route mặc định sẽ bắt hết các request mà không được xác định.</p>
+<p>Với cặp Route và Method sẽ định danh đến service.</p>
+<img src="images/routes.png" alt="API routes" style="width:100%">
+<h2 id="develop-api-authorizers">Develop: API Authorizers</h2>
+<p>Với mỗi route, AWS sẽ chìa ra ở một dạng attach route với một lớp bảo vệ Authorizer. Cơ chế này còn được gọi là Access Control. Mỗi Authorizer sẽ có nhiệm vụ bảo vệ, kiểm soát và xác minh các request có hợp lệ hay không. Một số kiểu cơ chế có thể sử dụng:</p>
+<ul>
+<li><strong>Lambda authorizers:</strong> Sẽ sử dụng một hoặc nhiều hàm Lambda để làm hàm verify. Cách làm này có lợi thế là mình có toàn khả năng custom logic theo ý muốn. Nôm na với một hàm đầu vào với thông tin của request và API, mình phải viết logic 1 hàm để trả về chấp nhận hay không request này. Hàm Lambda Authorizer sẽ luôn được gọi ngay sau khi xác định được route và trước khi gọi xuống service. Đây là cách mình sử dụng trong dự án APIX. Các logic liên quan đến Authorization hay Limit Quota, Subscription đều được xử lý tại bước này.</li>
+<li><strong>JWT authorizers:</strong> Sử dụng lại cơ chế JWT truyền thống. Xem thêm tại: <a href="https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-jwt-authorizer.html">Controlling access to HTTP APIs with JWT authorizers</a>.</li>
+<li><strong>Standard AWS IAM roles and policies:</strong> Cơ chế này sử dụng AWS IAM roles. Mình chưa tìm hiểu kĩ nên đọc thêm ở đây nhé: <a href="https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-access-control-iam.html">Using IAM authorization</a>.</li>
+</ul>
+<h2 id="develop-api-methods">Develop: API Methods</h2>
+<p>API methods chính là các phương thức tiến hành gọi vào API. Các Methods bao gồm: GET, POST, PUT, DELETE, PATCH, ANY ( đây là phương thức nhận toàn bộ các phương thức)</p>
+<img src="images/routeMethod.png" alt="API route methods" style="width:100%">
+<p>Khi mình setup method thì ngoài việc xác định rõ phương thức của API đó thì còn đồng thời setup thêm về request params, payload, header bắt buộc khi gọi. Đối với output thì mình phải setup status code, headers và body trả về dựa theo response từ các service backend.</p>
+<h2 id="develop-api-integration">Develop: API Integration</h2>
+<p>Integration chính là kết nối từ gateway đến các upstream service ở phía dưới. Hãy tưởng tượng, sau khi tiến hành tìm kiếm và matching được request từ client và route có trong gateway. Với mỗi route và method, sẽ gọi xuống integration ứng với nó.</p>
+<p>Hiện tại Integration trong AWS hỗ trợ kết nối theo các dạng sau:</p>
+<ul>
+<li>AWS lambda service: Gọi thẳng xuống lambda của AWS ( cũng là 1 dịch vụ serverless của AWS)</li>
+<li>HTTP API: Gọi đến 1 public HTTP API, đây là kiểu proxy integration. Ví dụ mình có 1 service riêng ở  <code>https://petstore-khang.com/pets</code> . Sau khi mình attach HTTP integration này vào với route và method GET /pets thì khi gọi client gọi đến GET /pets, các thông tin về request sẽ được call xuống về  service của mình là <code>https://petstore-khang.com/pets</code>. Ngoài ra mình có thể cài đặt về timeout - thời gian phản hồi tối đa của 1 request đến Integration này, nếu vượt quá sẽ raise lỗi.</li>
+</ul>
+<img src="images/integration.png" alt="API integration" style="width:100%">
+<p>Ở API Integration có một nhiệm vụ nữa đó là transform các request, response đến upstream service. Gọi tắt là Parameter Mapping.</p>
+<ul>
+<li>
+<p>Transform API requests: Ở đây mình có thể thay đổi thông tin của request trước khi gửi đến upstream service như thay đổi, thêm, sửa, xoá các header, querystring, và path, … Với ví dụ dưới là thêm giá trị của querystring và header với cặp key-value là {name: Khang} và {fromService: Amazon}. Với setup này thì ở dưới service sẽ nhận được giá trị tương ứng. Ngoài việc sử dụng các static value thì AWS còn support các value ở dạng tĩnh để có thể bắt được các context khi gọi như địa chỉ IP, Region, …
+<img src="images/requestmapping.png" alt="Request Mapping" style="width:100%"></p>
+</li>
+<li>
+<p>Transform API response: Ở đây sau khi nhận response từ upstream service, mình có thể thay đổi các thông tin của response ví dụ như headers, status code, body, … Cũng như ở trên, ở đây mình thay đổi status code từ 200 về 202 và thêm 1 header trả về là change = True
+<img src="images/responsemapping.png" alt="Response Mapping" style="width:100%"></p>
+</li>
+</ul>
+<h2 id="deploy-api-stage-and-api-deployment">Deploy: API Stage and API Deployment</h2>
+<p>Với API Stage là đến giai đoạn setup xong cấu hình của API, chuyển sang giai đoạn publish API ra ngoài. API Stage là một định danh logic chỉ stage của API đó trong Gateway. Ví dụ như dev, prod, v1, v2. Và nó sẽ được gắn vào URL expose ra bên ngoài gọi là Invoke URL. Trong mỗi stage thì có các configure để có thể tự động deploy mỗi khi có thay đổi ở cấu hình API.</p>
+<p>Với API Deployment, là một bản snapshot của cấu hình API và được gắn với API và Stage.</p>
+<img src="images/stage.png" alt="API stage" style="width:100%">
+<h2 id="deploy-custom-domain-name">Deploy: Custom Domain Name</h2>
+<p>Sau khi deploy thành công API tương ứng với stage, Ví dụ như trên với Invoke URL khá xấu và để lộ ra thông tin cấu hình. Trong thực tế, chúng ta sẽ sử dụng Domain Name để thay thế cho URL này.</p>
+<p>Sau khi tiến hành register domain hợp lệ và chúng ta thiết lập lại cơ chế Mapping như sau. Sau đó thay vì gọi vào Invoke URL, chúng ta sẽ gọi API thông qua Domain Name URL của mình.</p>
+<table>
+<thead>
+<tr>
+<th><a href="https://khang.api.example.com/prod">https://khang.api.example.com/prod</a></th>
+<th><a href="https://92d27nzpl6.execute-api.ap-southeast-1.amazonaws.com/prod">https://92d27nzpl6.execute-api.ap-southeast-1.amazonaws.com/prod</a></th>
+</tr>
+</thead>
+</table>
+<h2 id="monitor-logging">Monitor: Logging</h2>
+<p>Khi đã hoàn thành việc setup về cả develop và deploy. Thì kế tiếp là giai đoạn setup về Logging để tiến hành Monitor.  Ở đây AWS hỗ trợ việc setup lưu lại các Access Log - là các Log liên quan đến request và response. Thông thường ở đây mình sẽ chọn luôn Log Destination là một Log Group trong AWS CloudWatch.  Nội dung của từng record log sẽ được mặc định và thêm bớt theo format như dưới. Ví dụ như mình muốn log về IP thì dùng $context.identity.sourceIP.  Tuỳ vào trường hợp mình cần lưu log record như thế nào để dễ dàng tracking và làm các tác vụ thống kê sau này.</p>
+<img src="images/logging.png" alt="API logging" style="width:100%">
+<h2 id="protect-rate-limit-and-burst-limit">Protect: Rate limit and Burst limit</h2>
+<p>Như đã đề cập ở <a href="https://khangt1k25.github.io/tech/api_gateway/:">bài trước về API Gateway nói chung</a>. Các tính năng về Limit là thứ không thể thiếu ở API Gateway. Ở AWS, họ đã đưa phần Limit này vào Protect Views - dưới dạng API limit. Nghĩa rằng, với mỗi API mình sẽ được setup các cấu hình limit riêng. Core nằm bên dưới của họ vẫn là thuật toán về Bucket để đếm token counter cho một định danh truy vấn.  Với một cấu hình thì có thể setup 2 thông số</p>
+<ul>
+<li>Rate Limit : số request nhận tối đa trong một giây đồng hồ</li>
+<li>Burst Limit: Số request tối đa được xử lý tại một thời điểm</li>
+</ul>
+<p>Ngoài ra còn support Limit dựa trên Account</p>
+<img src="images/ratelimit.png" alt="API rate burst limit" style="width:100%">
+<h2 id="optimize-caching">Optimize: Caching</h2>
+<p>Sau khi hoàn thành các view trước, đây là view addons với tên là Optimize - nhằm tối ưu việc sử dụng và quản lý API Gateway. Trong đó, một cách tối ưu đơn giản và hiệu quả đó là Caching. Với Caching thì sẽ làm giảm được số lần mà API Gateway gọi xuống các service do các kết quả đã được cache lại (gọi là cached response) và trả về ngay.  Thời gian lưu trữ của cached response dựa theo thông số TTL ( time-to-live) xác định khoảng thời gian tồn tại của 1 cached response object trong hệ thống.</p>
+<h2 id="distribute-usage-plan-and-api-key">Distribute: Usage Plan and API Key</h2>
+<p>Usage plan là một gói sử dụng API, khi được gắn với API và Client, nó sẽ xác định ra bộ limit tương ứng dành cho người đó khi gọi API.  Ta có thể setup các thông số về Rate, Burst cho gói, ngoài ra còn có thông số về Quota, xác định hard limit dành theo ngày/tháng/tuần. Ví dụ: Gói free ở dưới được cấu hình rate = 100, burst = 100 và quota cho 1 tháng sử dụng là 10K requests.</p>
+<img src="images/usageplan.png" alt="API usage plan" style="width:100%">
+<p>API key là một đoạn string được generate ra và sẽ đưa cho client sử dụng. Một API Key sẽ có name ( tên của key) và value ( giá trị là đoạn string - cần được giữ bí mật, chỉ client nhất định mới có được giá trị này). Client sẽ sử dụng API Key này để gọi đến API Gateway. Về mặt API Gateway, nó sẽ không quan tâm bên ngoài là Client nào mà sẽ chỉ quan tâm đến Key nào vừa gọi ? Key đó có quyền Access hay không ? Khi design hệ thống có thể coi 1 API key là 1 user hoặc 1 group.</p>
+<p>Giờ là bước <strong>Associated</strong> giữa API, Usage plan và API Key. Phải trả lời hai câu hỏi sau đây.</p>
+<p>Gói free này sẽ sử dụng trên API nào? AWS sẽ cho phép ta cấu hình <strong>Associated stages.</strong>  Ta sẽ gắn gói free với một API Stage với câu trả lời rằng: Gói free này sử dụng trên API này.</p>
+<p>Ai sẽ sử dụng gói free này?  Ta sẽ <strong>Associate API Key</strong> của client 1 vào để client 1 có thể sử dụng gói free.</p>
+<p>Sau khi xong bước này, client 1 có thể gọi đến API với gói là free - có các thông số như cấu hình ở gói.</p>
+<img src="images/associated_apikeys.png" alt="Request Mapping" style="width:100%">
+<h2 id="advantages">Advantages</h2>
+<p>Sau quá trình sử dụng AWS API Gateway để build lên hệ thống API marketplace trong dự án của công ty. Mình nhận thấy đây là một service siêu tiện dụng đến từ nhà AWS và hướng đến việc tối giản hoá các bước khi tạo API Gateway. Một số ưu điểm theo mình cảm nhận:</p>
+<ul>
+<li>Tiện lợi, dễ dùng, không cần phải code custom quá nhiều, phù hợp cho các API gateway không cần custom quá nhiều</li>
+<li>Không cần phải HA, chịu tải và scale  - đã có AWS lo</li>
+<li>Có các documen rất clear và có use-case cụ thể để mình tham khảo và quan trọng là có API, SDK chìa ra để setup</li>
+<li>Dễ dàng kết nối đến các  Internal Service của nhà AWS.</li>
+</ul>
+<h2 id="disadvantages">Disadvantages</h2>
+<p>Ngoài những ưu điểm về dễ dàng sử dụng thì sau đây là cảm nhận của mình không thích khi sử dụng AWS API Gateway, đó cũng là những tham khảo để các bạn có thể lựa chọn stack phù hợp nhé.</p>
+<ul>
+<li>Tính customize thấp, là sự trade off giữa sự đơn giản và tính mạnh mẽ. Đối với mình thì khi sử dụng, mình ưu tiên tính customize này hơn do sự phức tạp của một sàn API team xây dựng. Ví dụ chỉ có 1 Authorizer là không đủ và tốc độ chậm khi xử lý toàn bộ các tác vụ customize trước khi gọi request.</li>
+<li>Bị limit rất nhiều: Các Limit về số API, số Endpoint hay về Protect đều có giới hạn trên ở mỗi tài khoản, và phải liên hệ để extend ra. Không chỉ vậy thì một số cấu hình còn bị hard limit ( không thể mở rộng hơn ). Điều này ảnh hướng rất nhiều đến cấu trúc các APIs. Do đó trước khi xây dựng nên tìm hiểu kĩ phần limit này để design hợp lý. Chi tiết xem thêm <a href="https://docs.aws.amazon.com/apigateway/latest/developerguide/limits.html">tại đây</a></li>
+</ul>
+<h2 id="the-conclusion">The Conclusion</h2>
+<p>Đó là những trải nghiệm của mình và đây cũng coi như một buổi review về AWS API Gateway. Tuy có những ưu điểm và là nơi rất tốt để bắt đầu, nhưng mình nghĩ đây không phải là lựa chọn tốt cho những hệ thống phức tạp.  Do đó, mình cũng sang tìm hiểu tech stack khác về API Gateway và cái tên tiếp theo đó là Kong Gateway. Và sẽ lại là một hành trình tiếp theo để build cùng với Kong. Mình sẽ kể về nó ở phần sau.</p>
+<p>Xem lại bài trước nhé:</p>
+<ul>
+<li><a href="/tech/api_gateway/">The very first: API Gateway</a></li>
+</ul>
+<h2 id="references">References</h2>
+<ul>
+<li><a href="https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-rest-api.html">https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-rest-api.html</a></li>
+<li><a href="https://viblo.asia/p/tim-hieu-aws-api-gateway-RnB5pMW2KPG">https://viblo.asia/p/tim-hieu-aws-api-gateway-RnB5pMW2KPG</a></li>
+<li><a href="https://docs.aws.amazon.com/apigateway/">https://docs.aws.amazon.com/apigateway/</a></li>
+<li><a href="https://www.youtube.com/watch?v=sDxsTPbUiik">https://www.youtube.com/watch?v=sDxsTPbUiik</a></li>
+</ul>
+
+        </div>
+    </div>
+    
+    
+        <div class="mt-20">
+            <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "khangruni" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </div>
+    
+
+    
+    
+
+</div>
+
+
+        </div><div class="container">
+    <div class="row justify-content-between">
+        <div class="col-sm-4">
+            <p class="footer">Khangruni © 2024 </p>
+        </div>
+        <div class="col-sm-6 d-flex flex-row-reverse">
+            
+            <a class="footer-social px-2"  href="https://www.facebook.com/trankhang.nguyen.35/" target="_blank"><i class="fab fa-facebook"></i></a>
+            
+            <a class="footer-social px-2"  href="https://github.com/khangt1k25" target="_blank"><i class="fab fa-github"></i></a>
+            
+            <a class="footer-social px-2"  href="https://www.linkedin.com/in/khang-nguyen-tran/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            
+        </div>
+    </div>
+</div>
+<script src="/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/js/jquery.min.js"></script>
+<script src="/js/isotope.pkgd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+<script src="/js/dark.js"></script>
+<script>
+
+
+var savedTheme = localStorage.getItem("dark-mode-storage") || "light" 
+setTheme(savedTheme);
+
+</script>
+<script src="/js/isotope.js"></script>
+<script src="/js/mermaid.min.js"></script>
+
+<script>mermaid.initialize({ startOnLoad: true, securityLevel: 'loose'});</script>
+</body>
+</html>

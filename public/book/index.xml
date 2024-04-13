@@ -7,8 +7,57 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Khangruni ©</copyright>
-    <lastBuildDate>Mon, 30 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 13 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/book/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>All the Light We Cannot See</title>
+      <link>http://localhost:1313/book/all_the_light_we_cannot_see/</link>
+      <pubDate>Sat, 13 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/book/all_the_light_we_cannot_see/</guid>
+      <description>A blind French girl and a German boy whose paths collide in occupied France as both try to survive the devastation of World War II</description>
+    </item>
+    <item>
+      <title>David and Goliath</title>
+      <link>http://localhost:1313/book/david_and_goliath/</link>
+      <pubDate>Sat, 13 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/book/david_and_goliath/</guid>
+      <description>Underdogs, Misfits, and the Art of Battling Giants</description>
+    </item>
+    <item>
+      <title>Educated</title>
+      <link>http://localhost:1313/book/educated/</link>
+      <pubDate>Sat, 13 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/book/educated/</guid>
+      <description>An account of the struggle for self-invention</description>
+    </item>
+    <item>
+      <title>Inspired</title>
+      <link>http://localhost:1313/book/inspired/</link>
+      <pubDate>Sat, 13 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/book/inspired/</guid>
+      <description>How to Create Tech Products Customers Love</description>
+    </item>
+    <item>
+      <title>The Nightingale</title>
+      <link>http://localhost:1313/book/the_nightingale/</link>
+      <pubDate>Sat, 13 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/book/the_nightingale/</guid>
+      <description>In love we find out who we want to be. In war we find out who we are.</description>
+    </item>
+    <item>
+      <title>The Tipping Point</title>
+      <link>http://localhost:1313/book/the_tipping_point/</link>
+      <pubDate>Sat, 13 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/book/the_tipping_point/</guid>
+      <description>How Little Things Can Make a Big Difference</description>
+    </item>
+    <item>
+      <title>Think Again</title>
+      <link>http://localhost:1313/book/think_again/</link>
+      <pubDate>Sat, 13 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/book/think_again/</guid>
+      <description>The Power of Knowing What You Don&amp;rsquo;t Know</description>
+    </item>
     <item>
       <title>Rework</title>
       <link>http://localhost:1313/book/rework/</link>

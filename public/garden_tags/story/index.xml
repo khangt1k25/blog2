@@ -45,17 +45,10 @@
       <description>Đang trong mùa dịch Covid-19 căng thẳng, hôm qua thì đùng cái Hà Nội thông báo có người nhiễm Covid.</description>
     </item>
     <item>
-      <title>29 tháng 2</title>
-      <link>http://localhost:1313/garden/29_2/</link>
-      <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/garden/29_2/</guid>
-      <description>A few days ago, i thought about the future. A few weeks ago, i also thought about the future. A few months ago, i had same things.</description>
-    </item>
-    <item>
       <title>The Etihad memory</title>
-      <link>http://localhost:1313/garden/eithad_memory/</link>
+      <link>http://localhost:1313/garden/etihad_memory/</link>
       <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/garden/eithad_memory/</guid>
+      <guid>http://localhost:1313/garden/etihad_memory/</guid>
       <description>Premier League năm ấy, đứa trẻ đã òa khóc khi trước mắt là điều tội tệ nhất của cậu</description>
     </item>
   </channel>

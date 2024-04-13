@@ -18,11 +18,16 @@
     <div class="card top-highlight">
         <a href="{{ .Permalink }}" class="stretched-link"></a>
         <div class="row g-0">
-            <div class="col-md-12 col-lg-4 col-xl-5">
+            <div class="col-md-12 col-lg-4 col-xl-5" style="display: flex; align-items: center; justify-content: center;">
                 {{ $img := (.Resources.ByType "image").GetMatch "*featured*" }}
                 {{ $img = $img.Fit "400x500" }}
                 {{ with $img }}
-                    <img src="{{ .Permalink }}" class="img-fluid rounded-start card-img-top" alt="...">
+                    <img 
+                        src="{{ .Permalink }}" 
+                        class="img-fluid rounded-start card-img-top" 
+                        alt="..."
+                        style="padding: 20px;"
+                    >
                 {{ end }}
             </div>
             <div class="col-lg-8 col-xl-7 ms-auto">

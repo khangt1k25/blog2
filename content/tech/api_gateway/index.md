@@ -10,7 +10,7 @@ summary: "Oh, this is the very first tech blog. So, the first is API gateway"
 
 <i>Hà Nội, Time-Coffee, Chiều Chủ Nhật</i>
 
-![Timecofeee](images/time.jpeg)
+<img src="images/time.jpeg" alt="Time coffee" style="width:100%">
 
 ## The begin
 
@@ -40,7 +40,9 @@ Ví dụ như API gateway có 2 endpoints được đăng kí: 1 là truy vấn 
 
 Khi bạn A thực hiện requests đến API gateway dựa trên uri /api/house. API gateway sẽ có cơ chế về tìm kiếm route matching để xác định /api/house này ứng với service gì. Sau đó API gateway sẽ thực hiện chuyển tiếp request đến service tương ứng. 
 
-![Routing](images/Untitled.png)
+
+<img src="images/Untitled.png" alt="Routing" style="width:100%">
+
 
 ## **Authentication and Authorization**
 
@@ -58,7 +60,9 @@ Trong phần này, API gateway đóng vai trò là nơi đăng kí, điều ti�
 
 Ví dụ trường hợp service API về animal có lưu lượng truy cập quá nhiều, gây quá tải cho service này. Do đó các developer đã deploy thêm các bản sao của service animal để có thể đảm bảo không bị quá tải. Sau đó, các bản sao này sẽ đăng kí với API gateway để làm một trung gian về load balancer.  Các truy vấn sẽ được phân bổ ra các bản sao và theo thứ tự dựa theo thuật toán ( đơn giản nhất là round robin - xoay vòng), đảm bảo các service này không bị quá tải.  Hơn nữa về phía người dùng, họ sẽ không cần quan tâm đến multi-services và hệ thống ở bên dưới, họ chỉ cần quan tâm đến endpoint chung của service đó.  
 
-![Load Balancer](images/Untitled%201.png)
+
+<img src="images/Untitled%201.png" alt="Load Balancer" style="width:100%">
+
 
 ## **Request and Response Transformation**
 
@@ -79,7 +83,9 @@ API gateway đã hỗ trợ sẵn cơ chế về caching ở lớp ngoài thay v
 
 Cơ chế caching ở API gateway cũng được implement theo đúng chuẩn best-pratice, thường sử dụng key để đăng kí cached object được lưu trữ ở cached memory hoặc cached DB trong một khoảng thời gian sống (ttl). 
 
-![Caching](images/Untitled%202.png)
+
+<img src="images/Untitled%202.png" alt="Caching" style="width:100%">
+
 
 ## **Rate Limiting and Throttle Limiting**
 
@@ -89,7 +95,8 @@ Trong trường hợp, service về animal chỉ chịu đựng được 4 reque
 
 Cơ chế này sẽ hoạt động như sau. Trong một khoảng thời gian, khi một client thực hiện requests quá nhiều lần, vượt quá ngưỡng cho phép đăng kí trước đó của service, thì API gateway sẽ không thực hiện chuyển tiếp mà trả về lỗi ngay dành cho client: *429 Too Many Requests.*  Nếu như không có API gateway, các services phải tự implement cơ chế này để bảo vệ chính nó, cũng giống như cơ chế caching. Khi có API gateway, các cơ chế này được đẩy ra lớp ngoài, do đó ở các service chỉ cần tập trung implement các logic mà thôi. 
 
-![Ratelimit](images/Untitled%203.png)
+<img src="images/Untitled%203.png" alt="Rate limit" style="width:100%">
+
 
 ## **Logging and Monitoring**
 
@@ -98,6 +105,9 @@ Và cuối cùng, chính là những hỗ trợ về log và monitor. Các truy 
 ## The conclusion
 
 Trên đây là một số thông tin căn bản và tổng quan về API gateway - như một phần introduction cho những bài blog về tech của mình. Trong bài tiếp theo, mình sẽ viết kĩ hơn về các dịch vụ về API gateway của AWS, Kong, … và những trải nghiệm của mình khi sử dụng chúng. 
+
+Bài tiếp theo: 
+* [API Gateway với AWS](/tech/api_gateway_aws/)
 
 ## References
 
