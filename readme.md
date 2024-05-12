@@ -7,8 +7,7 @@
 hugo server 
 
 3. Build to site folder
-hugo -d ../k
-hangt1k25...
+hugo -d ../khangt1k25...
 
 4. Update code using git
 ```

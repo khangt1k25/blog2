@@ -12,22 +12,22 @@ copyright = "Khangruni ©"
   description = "The sun comes up it's new day dawning, it's time to sing your song again."
   initials = "Khangruni"
   googleAnalytics = "G-GPVC98SDG9"
-
-  [[params.social]]
-    name = "Twitter"
-    link = "https://www.facebook.com/trankhang.nguyen.35/"
-    icon = "fab fa-facebook"
+  
     
   [[params.social]]
     name = "Github"
     link = "https://github.com/khangt1k25"
     icon = "fab fa-github"
 
-
-  [[params.social]]
+  [[params.social]] 
     name = "LinkedIn"
     link = "https://www.linkedin.com/in/khang-nguyen-tran/"
     icon = "fab fa-linkedin-in"
+
+  [[params.social]] 
+    name = "Email"
+    link = "mailto:khangruni@gmail.com"
+    icon = "fas fa-envelope"
 
 
 [menu]

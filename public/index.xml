@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Khangruni ©</copyright>
-    <lastBuildDate>Sat, 13 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 May 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>API gateway with AWS</title>
@@ -29,6 +29,20 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/gallery/kalapa/</guid>
       <description>Snapshots from my journey at KALAPA, my first job as a data scientsit after graduation. It&amp;rsquo;s a journey where work meets family, and innovation blends seamlessly with a relaxed vibe.</description>
+    </item>
+    <item>
+      <title>Điện Biên Phủ - Điểm hẹn lịch sử</title>
+      <link>http://localhost:1313/book/dien_bien_phu_diem_hen_lich_su/</link>
+      <pubDate>Sun, 12 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/book/dien_bien_phu_diem_hen_lich_su/</guid>
+      <description>Hồi ký “Điện Biên Phủ - Điểm hẹn lịch sử” của cố Đại tướng Võ Nguyên Giáp do nhà văn Hữu Mai thể hiện là một hiện thực rộng lớn gồm nhiều sự kiện, nhiều nhân vật, nhiều địa điểm, nhiều thời điểm khác nhau</description>
+    </item>
+    <item>
+      <title>Mãi mãi tuổi hai mươi</title>
+      <link>http://localhost:1313/book/mai_mai_tuoi_hai_muoi/</link>
+      <pubDate>Sun, 12 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/book/mai_mai_tuoi_hai_muoi/</guid>
+      <description>Cuốn nhật kí thời chiến của một chiến sĩ Quân đội nhân dân Việt Nam đã làm rung động trái tim của rất nhiều độc giả, ở mọi lứa tuổi, trong mọi trong mọi thời đại.</description>
     </item>
     <item>
       <title>All the Light We Cannot See</title>
