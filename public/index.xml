@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Khangruni ©</copyright>
-    <lastBuildDate>Sun, 12 May 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 May 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>API gateway with AWS</title>
@@ -29,6 +29,20 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/gallery/kalapa/</guid>
       <description>Snapshots from my journey at KALAPA, my first job as a data scientsit after graduation. It&amp;rsquo;s a journey where work meets family, and innovation blends seamlessly with a relaxed vibe.</description>
+    </item>
+    <item>
+      <title>Đất rừng phương nam</title>
+      <link>http://localhost:1313/book/dat_rung_phuong_nam/</link>
+      <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/book/dat_rung_phuong_nam/</guid>
+      <description>Đất rừng phương Nam là tiểu thuyết của nhà văn Đoàn Giỏi viết về cuộc đời phiêu bạt của cậu bé tên An. Bối cảnh của tiểu thuyết là miền Tây Nam Bộ, Việt Nam vào nửa cuối thập niên 1940, sau khi thực dân Pháp quay trở lại xâm chiếm Nam Bộ.</description>
+    </item>
+    <item>
+      <title>Tuổi thơ dữ dội</title>
+      <link>http://localhost:1313/book/tuoi_tho_du_doi/</link>
+      <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/book/tuoi_tho_du_doi/</guid>
+      <description>Tuổi thơ dữ dội là một tiểu thuyết dài tám phần xoay quanh cuộc sống chiến đấu và sự hy sinh của những thiếu niên 13, 14 tuổi trong hàng ngũ Đội thiếu niên trinh sát của trung đoàn Trần Cao Vân.</description>
     </item>
     <item>
       <title>Điện Biên Phủ - Điểm hẹn lịch sử</title>

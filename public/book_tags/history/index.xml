@@ -7,14 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Khangruni ©</copyright>
-    <lastBuildDate>Sun, 12 May 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 May 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/book_tags/history/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Đất rừng phương nam</title>
+      <link>http://localhost:1313/book/dat_rung_phuong_nam/</link>
+      <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/book/dat_rung_phuong_nam/</guid>
+      <description>Đất rừng phương Nam là tiểu thuyết của nhà văn Đoàn Giỏi viết về cuộc đời phiêu bạt của cậu bé tên An.Bối cảnh của tiểu thuyết là miền Tây Nam Bộ, Việt Nam vào nửa cuối thập niên 1940, sau khi thực dân Pháp quay trở lại xâm chiếm Nam Bộ.</description>
+    </item>
     <item>
       <title>Điện Biên Phủ - Điểm hẹn lịch sử</title>
       <link>http://localhost:1313/book/dien_bien_phu_diem_hen_lich_su/</link>
       <pubDate>Sun, 12 May 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/book/dien_bien_phu_diem_hen_lich_su/</guid>
       <description>Hồi ký “Điện Biên Phủ - Điểm hẹn lịch sử” của cố Đại tướng Võ Nguyên Giáp do nhà văn Hữu Mai thể hiện là một hiện thực rộng lớn gồm nhiều sự kiện, nhiều nhân vật, nhiều địa điểm, nhiều thời điểm khác nhau</description>
+    </item>
+    <item>
+      <title>Mãi mãi tuổi hai mươi</title>
+      <link>http://localhost:1313/book/mai_mai_tuoi_hai_muoi/</link>
+      <pubDate>Sun, 12 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/book/mai_mai_tuoi_hai_muoi/</guid>
+      <description>Cuốn nhật kí thời chiến của một chiến sĩ Quân đội nhân dân Việt Nam đã làm rung động trái tim của rất nhiều độc giả, ở mọi lứa tuổi, trong mọi trong mọi thời đại.</description>
     </item>
   </channel>
 </rss>
